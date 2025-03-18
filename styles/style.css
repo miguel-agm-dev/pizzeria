@@ -1,3 +1,5 @@
+/*Configuracion inicial*/
+
 *{
     padding: 0;
     margin: 0;
@@ -6,12 +8,12 @@
 }
 
 :root{
-    --bg-color: green;
-    --second-bg-color: red;
+    --bg-color: rgb(15, 116, 15);
+    --second-bg-color: rgb(173, 24, 24);
     --text-color: whitesmoke;
     --hover-color: grey;
-    --font-sans: "Open Sans", sans-serif;
-    --font-pacifico: "Pacifico", cursive;
+    --font-roboto: "Roboto", sans-serif;
+    --font-italian: "Playwrite+IT+Moderna", cursive;
 }
 
 html{
@@ -21,4 +23,34 @@ html{
 body{
     font-size: 1.6rem;
     font-family: var(--font-sans);
+}
+
+/*Utilidades*/
+
+.container{
+    max-width: 100rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    padding: 2rem 3rem;
+    background-color: var(--second-bg-color);
+    border-radius: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 1.8rem;
+    transition-duration: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.title2{
+    font-family: var(--font-italian);
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0;
 }
