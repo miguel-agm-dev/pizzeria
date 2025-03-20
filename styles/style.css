@@ -1,4 +1,4 @@
-/*Configuracion inicial*/
+/*Initial config*/
 
 *{
     padding: 0;
@@ -25,7 +25,7 @@ body{
     font-family: var(--font-sans);
 }
 
-/*Utilidades*/
+/*Utilitys*/
 
 .container{
     max-width: 100rem;
@@ -109,4 +109,35 @@ body{
 
 .navbar a:hover{
     color: var(--second-bg-color);
+}
+
+/*Section Welcome*/
+
+.welcome-content{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    max-width: 45rem;
+    padding: 5rem 2rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+}
+
+.welcome-content span{
+    display: block;
+
+}
+
+.welcome-content h2 span:first-child{
+    color: var(--second-bg-color);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.welcome-content p{
+    line-height: 1.75;
+    margin-bottom: 3rem;
+}
+
+.welcome-btn{
+    margin-bottom: -8rem;
 }
