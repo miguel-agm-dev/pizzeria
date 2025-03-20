@@ -184,3 +184,45 @@ body{
 .top-sellers-item .btn{
     padding: 1rem 2rem;
 }
+
+/*New Pizzas*/
+
+.new-pizzas{
+    padding: 6rem 0;
+    width: 100%;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.new-pizzas-content{
+    position: relative;
+}
+
+.new-pizzas-content img{
+    width: 100%;
+}
+
+.pizza-info{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    width: 40rem;
+    text-align: center;
+}
+
+.pizza-info .title2{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.pizza-info p{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.pizza-info .btn{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
