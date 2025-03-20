@@ -54,3 +54,59 @@ body{
     text-align: center;
     margin: 3rem 0;
 }
+
+/*Video*/
+
+#bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/*Header*/
+
+.header{
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header-logo{
+    margin: 3rem 0;
+}
+
+.header-logo h1{
+    color: var(--second-bg-color);
+    font-family: var(--font-italian);
+    font-size: 4rem;
+}
+
+.header-logo h2{
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 3rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--bg-color);
+    padding: 3rem 0;
+}
+
+.navbar a{
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar a:hover{
+    color: var(--second-bg-color);
+}
