@@ -141,3 +141,46 @@ body{
 .welcome-btn{
     margin-bottom: -8rem;
 }
+
+/*Top Sellers*/
+
+.top-sellers{
+    background-image: url(../img/bg-table.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.top-sellers-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    align-content: center;
+    gap: 2rem;
+}
+
+.top-sellers-item{
+    background-color: var(--bg-color);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.top-sellers-item img{
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.top-sellers-item h3{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.top-sellers-item p{
+    margin: 2rem 0;
+}
+
+.top-sellers-item .btn{
+    padding: 1rem 2rem;
+}
